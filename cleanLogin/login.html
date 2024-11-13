@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login</title>
+        <link rel="stylesheet" href="login.css" />
+    </head>
+    <body>
+        <form action="">
+            <p>LOGIN</p>
+
+            <div class="inputs">
+                <input type="text" class="text-input" placeholder="Username" />
+                <input type="password" class="text-input" id="input-password" placeholder="Password" />
+
+                <!-- delete this if necessary -->
+                <div class="show-pass">
+                    <input
+                        type="checkbox"
+                        id="showPasswordCheckbox"
+                        name="checkbox"
+                    />
+                    <small>Show password</small>
+                </div>
+
+                <input type="submit" class="submit-input" value="Login" />
+
+                <!-- OPTIONAL ELEMENTS FOR THE WEBSITE -->
+
+                <div class="or-signup">
+                    <small>Don't have an account? <a>Sign up</a></small>
+                </div>
+            </div>
+        </form>
+        <script src="login.js"></script>
+    </body>
+</html>
